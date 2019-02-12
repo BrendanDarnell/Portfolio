@@ -1,0 +1,82 @@
+* {
+	box-sizing: border-box;
+}
+
+/*header {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid black;
+}
+*/
+
+.my-image {
+	width: 75%;
+	height: auto;
+	border: 1px solid black;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1%;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	/*display: flex;*/
+}
+
+h1 {
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 10%;
+	margin-left: 2%;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.sidebar {
+	color: white;
+	background-color: black;
+	min-height: 100vh;
+	display: flex;
+	width: 25%;
+	/*min-width: 25%;*/
+	flex-direction: column;
+	/*justify-content: space-between;*/
+	border: 1px solid black;
+	position: fixed;
+
+}
+
+.sidebar-list, .sidebar-projects {
+	padding-left: 10%;
+}
+
+.sidebar-list > li {
+	margin-bottom: 7%;
+}
+
+.sidebar-projects > li {
+	margin-top: 4%;
+}
+
+li {
+	list-style: none;
+}
+
+.intro {
+	flex-basis: 75%;
+	min-width: 75%;
+}
+
+.about-me {
+	width: 80%;
+	margin: auto;
+	line-height: 1.5;
+	margin-top: 2%;
+}
