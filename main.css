@@ -20,11 +20,16 @@
 	margin-top: 1%;
 }
 
+/*html {
+	height: 100%;
+	width: 100vw;
+	margin: 0;
+}
+*/
 body {
 	height: 100%;
-	width: 100%;
+	width: 100vw;
 	margin: 0;
-	/*display: flex;*/
 }
 
 h1 {
@@ -37,20 +42,35 @@ h1 {
 main {
 	display: flex;
 	flex-wrap: wrap;
+	width: 100%;
+	margin-left: 0;
 }
 
 .sidebar {
 	color: white;
 	background-color: black;
+	/*height: 100vh;*/
 	min-height: 100vh;
 	display: flex;
-	width: 25%;
-	/*min-width: 25%;*/
+	width: 70%;
 	flex-direction: column;
-	/*justify-content: space-between;*/
 	border: 1px solid black;
 	position: fixed;
+}
 
+.sidebar-hidden {
+	left: -70%;
+}
+
+.toggle-button {
+	color: white;
+	background-color: black;
+	position: absolute;
+	width: 7vw;
+	height: 10%;
+	top: 45%;
+	left: 100%;
+	border: 1px solid white;
 }
 
 .sidebar-list, .sidebar-projects {
@@ -70,8 +90,8 @@ li {
 }
 
 .intro {
-	flex-basis: 75%;
-	min-width: 75%;
+	flex-basis: 100%;
+	min-width: 100%;
 }
 
 .about-me {
@@ -79,4 +99,33 @@ li {
 	margin: auto;
 	line-height: 1.5;
 	margin-top: 2%;
+}
+
+.project-list {
+	padding-left: 0;
+}
+
+.project-image {
+	width: 100%;
+}
+
+@media screen and (min-width: 900px) {
+	main {
+		width: 75%;
+		margin-left: 25%;
+	}
+
+	.sidebar {
+		width: 25%;
+		left: 0;
+	}
+
+	.toggle-button {
+		display: none;
+	}
+
+/*	.intro {
+	flex-basis: 75%;
+	min-width: 75%;
+}*/
 }
