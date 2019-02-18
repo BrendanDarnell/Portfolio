@@ -28,7 +28,7 @@
 */
 body {
 	height: 100%;
-	width: 100vw;
+	width: 100%;
 	margin: 0;
 }
 
@@ -89,6 +89,10 @@ li {
 	list-style: none;
 }
 
+section {
+	min-height: 100vh;
+}
+
 .intro {
 	flex-basis: 100%;
 	min-width: 100%;
@@ -105,14 +109,35 @@ li {
 	padding-left: 0;
 }
 
+.project-list > li {
+	width: 95%;
+	margin: 0 auto;
+}
+
 .project-image {
 	width: 100%;
+}
+
+img.lemme-know {
+		border: 4px solid #152B42;
+	}
+
+img.maintain-my-ride {
+	border: 4px solid rgba(28, 29, 33, 0.90);
+}
+
+img.hike-my-national-parks {
+	border: 4px solid black;
 }
 
 @media screen and (min-width: 900px) {
 	main {
 		width: 75%;
 		margin-left: 25%;
+	}
+
+	.about-me {
+		width: 90%;
 	}
 
 	.sidebar {
@@ -124,6 +149,23 @@ li {
 		display: none;
 	}
 
+	.project-list > li {
+		width: 90%;
+	}
+
+/*	img.lemme-know {
+		border: 4px solid #152B42;
+	}
+
+	img.maintain-my-ride {
+		border: 4px solid rgba(28, 29, 33, 0.90);
+	}
+
+	img.hike-my-national-parks {
+		border: 4px solid black;
+	}*/
+
+/*color: #152B42;*/
 /*	.intro {
 	flex-basis: 75%;
 	min-width: 75%;
