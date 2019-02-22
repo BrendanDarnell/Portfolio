@@ -12,24 +12,36 @@
 	<header role="banner" class="sidebar sidebar-hidden">
 		<button class="toggle-button">></button>
 		<img class="my-image" src="./brendan.jpg" alt="Brendan Darnell">
-		<h1>Brendan Darnell</h1>		
+		<!-- <div class="name">Brendan Darnell</div>		 -->
 		<nav role="navigation">
 			<ul class="sidebar-list">
-				<li>About Me</li>
-				<li>My Projects
+				<li>
+					<a href="#intro">About Me</a>
+				</li>
+				<li>
+					<a href="#projects">My Projects<a/>
 					<ul class="sidebar-projects">
-						<li>Lemme Know</li>
-						<li>Maintain My Ride</li>
-						<li>Hike My National Parks</li>
+						<li>
+							<a href="#lemme-know">Lemme Know</a>
+						</li>
+						<li>
+							<a href="#maintain-my-ride">Maintain My Ride</a>
+						</li>
+						<li>
+							<a href="#hike-my-national-parks">Hike My National Parks</a>
+						</li>
 					</ul>
 				</li>
-				<li>Contact Info</li>
+				<li>
+					<a href="#contact-info">Contact Info</a>
+				</li>
 			</ul>
 		</nav>
 	</header>
 
 	<main role="main">
-		<section class="intro" role="region">
+		<section class="intro" id="intro" role="region">
+			<h1>Hello, <br>I'm Brendan Darnell</h1>
 			<p class="about-me">
 				After studying chemistry in college and working in various scientific industries, I realized that I had yet to find a career that I was passionate about.  I decided to take some computer science classes and it was love at first byte when I took an intro to programming course.  This led me to enroll in Thinkful's full-stack web-development program.  I love creating web applications with end-user purpose and functionality at its core, while striving to write code that is easy to read and reusable.
 			</p>
@@ -37,23 +49,141 @@
 				In my free time you'll most likely find me in the mountains, at the dog park, riding my motorcycle, brewing beer, or reading a book.     
 			</p>
 		</section>
-		<section class="projects" role="region">
-			<ul class="project-list">
+		
+		<section class="projects" id="projects" role="region">
+			<h2>Projects</h2>	
+			<ul class="project-list" id="projects">
 				<li>
-					<h2>Lemme Know</h2>
-					<img class="project-image lemme-know" src="./lemme-know.png" alt="Lemme Know Image">
+					<img class="project-image lemme-know"  id="lemme-know" src="./lemme-know.png" alt="Lemme Know Image">
+					<div class="project-links">
+						<h3>Lemme Know</h3>
+						<div>
+							<a href="">Github |</a>
+							<a href="">Demo</a>
+						</div>
+					</div>
+					<p class="project-description">
+						Lemme Know helps people stay safe while enjoying activities they love. Users create events for upcoming activities, providing some details about what they are doing, when they are expected to return, and a contact's phone number. If they do no return from the event by the specified time, their contact is sent a text message asking to check up on the user.
+					</p>
+					<h4>Technology Used</h4>
+					<div class="tech-used">
+						<div class="front-end">
+							<h5>Front-End</h5>
+							<ul>
+								<li>HTML</li>
+								<li>CSS</li>
+								<li>Node</li>
+								<li>React</li>
+								<li>React Router</li>
+								<li>Redux</li>
+								<li>Redux Thunk</li>
+								<li>Redux Form</li>	
+								<li>Moment</li>
+								<li>Testing
+									<ul>
+										<li>Jest</li>
+										<li>Enzyme</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="back-end">
+							<h5>Back-End</h5>
+							<ul>
+								<li>Node</li>
+								<li>Express</li>
+								<li>Mongoose</li>
+								<li>Passport</li>
+								<li>Passport-jwt</li>
+								<li>Jsonwebtoken</li>
+								<li>Bcryptjs</li>
+								<li>Twilio</li>	
+								<li>Moment</li>
+								<li>Testing
+									<ul>
+										<li>Mocha</li>
+										<li>Chai</li>
+										<li>Chai-http</li>
+										<li>Faker</li>
+									</ul>
+								</li>
+							</ul>							
+						</div>						
+					</div>
+
 				</li>
 				<li>
-					<h2>Maintain My Ride</h2>
-					<img class="project-image maintain-my-ride" src="./maintain-my-ride.png" alt="Maintain My Ride Image">
+					<img class="project-image maintain-my-ride" id="maintain-my-ride" src="./maintain-my-ride.png" alt="Maintain My Ride Image">
+					<h3>Maintain My Ride</h3>
+					<h4>Technology Used</h4>
+					<div class="tech-used">
+						<div class="front-end">
+							<h5>Front-End</h5>
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>	
+							</ul>
+						</div>
+						<div class="back-end">
+							<h5>Back-End</h5>
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>	
+							</ul>							
+						</div>						
+					</div>
 				</li>
 				<li>
-					<h2>Hike My National Parks</h2>
-					<img class="project-image hike-my-national-parks" src="./hike-my-national-parks.png" alt="Hike My National Parks Image">
+					<img class="project-image hike-my-national-parks" id="hike-my-national-parks" src="./hike-my-national-parks.png" alt="Hike My National Parks Image">
+					<h3>Hike My National Parks</h3>
+					<h4>Technology Used</h4>
+					<div class="tech-used">
+						<div class="front-end">
+							<h5>Front-End</h5>
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>	
+							</ul>
+						</div>
+						<div class="back-end">
+							<h5>Back-End</h5>
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>	
+							</ul>							
+						</div>						
+					</div>
 				</li>
 			</ul>
 		</section>
-		<section class="contact-info" role="region"></section>
+		
+		<section class="contact-info" id="contact-info" role="region">
+			<h2>Contact Info</h2>
+		</section>
 	</main>
 
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="	crossorigin="anonymous"></script>
