@@ -1,0 +1,89 @@
+
+
+
+
+
+
+
+
+@media screen and (min-width: 900px) {
+	main {
+		width: 75%;
+		margin-left: 25%;
+	}
+
+	.about-me {
+		width: 90%;
+	}
+
+	.sidebar {
+		width: 25%;
+		left: 0;
+	}
+
+	.toggle-button {
+		display: none;
+	}
+
+	.project-list > li, h2 {
+		width: 90%;
+	}
+
+	.tech-logos {
+		width: 60%;	
+	}
+
+/*	img.lemme-know {
+		border: 4px solid #152B42;
+	}
+
+	img.maintain-my-ride {
+		border: 4px solid rgba(28, 29, 33, 0.90);
+	}
+
+	img.hike-my-national-parks {
+		border: 4px solid black;
+	}*/
+
+/*color: #152B42;*/
+/*	.intro {
+	flex-basis: 75%;
+	min-width: 75%;
+}*/
+}
+
+@media screen and (min-width: 975px) {
+	main {
+		width: 77%;
+		margin-left: 23%;
+	}
+
+	.sidebar {
+		width: 23%;
+		left: 0;
+	}
+}
+
+@media screen and (min-width: 1030px) {
+	main {
+		width: 80%;
+		margin-left: 20%;
+	}
+
+	.sidebar {
+		width: 20%;
+		left: 0;
+	}
+}
+
+@media screen and (min-width: 1140px) {
+	main {
+		width: 83%;
+		margin-left: 17%;
+	}
+
+	.sidebar {
+		width: 17%;
+		left: 0;
+	}
+}
