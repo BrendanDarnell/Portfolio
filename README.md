@@ -7,3 +7,4 @@ My portfolio site contains an about me section, a section displaying projects I 
 * Javascript
 * HTML
 * CSS
+* JQuery
