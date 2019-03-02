@@ -247,6 +247,10 @@ section.contact-info {
 	display: inline-block;
 }
 
+.github-link {
+	color: #262626; 
+}
+
 .email-form > form {
 	height: 100%;
 }
@@ -264,11 +268,14 @@ section.contact-info {
 .email-form input {
 	height: 15%;
 	border: 1px solid #262626;
+	padding-left: 1%;
 }
 
 .email-form textarea {
 	height: 100%;
 	border: 1px solid #262626;
+	padding-left: 1%;
+	padding-right: 1%;
 }
 
 .email-form button {
