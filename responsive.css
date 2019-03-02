@@ -1,7 +1,6 @@
 @media screen and (orientation: landscape) and (max-height: 450px) {
 	.my-image {
 		display: none;
-		/*width: 2%;*/
 		align-items: center;
 	}
 }

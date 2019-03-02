@@ -1,9 +1,6 @@
-/*font-family: 'Montserrat', sans-serif;
-font-family: 'Oswald', sans-serif;*/
 
 * {
 	box-sizing: border-box;
-	/*font-family: 'Oswald', sans-serif;*/
 }
 
 main {
@@ -106,6 +103,10 @@ li {
 
 section {
 	min-height: 100vh;
+}
+
+section.projects {
+	margin-top: 5vh;
 }
 
 .intro {
@@ -289,5 +290,4 @@ section.contact-info {
 
 .contact-container > h3 {
 	margin-bottom: 2%;
-
 }
