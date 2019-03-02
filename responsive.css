@@ -1,19 +1,66 @@
+@media screen and (orientation: landscape) and (max-height: 450px) {
+	.my-image {
+		display: none;
+		/*width: 2%;*/
+		align-items: center;
+	}
+}
 
+@media screen and (min-height: 700px) {
+	h1 {
+		margin-top: 10%;
+	}
+}
 
+@media screen and (max-width: 350px) {
+	.project-links a, .project-links span {
+		font-size: .8em;
+	}
+}
 
+@media screen and (min-width: 550px) {
+	.sidebar {
+		width: 40%;
+	}
 
+	.sidebar-hidden {
+		width: 40%;
+		left: -40%;
+	}
 
+	.project-description {
+		font-size: 1.2em;
+	}
 
+	h3 {
+		font-size: 2.2em;
+		margin-top: 3%;
+		margin-bottom: 3%;
+	}
+}
 
+@media screen and (min-width: 550px) {
+	h1 {
+		margin-top: 10%;
+		margin-bottom: 5%;
+	}
+
+	.tech-logos {
+		width: 80%;
+	}
+}
+
+@media screen and (min-width: 650px) {
+	.tech-logos {
+		width: 50%;
+	}
+
+}
 
 @media screen and (min-width: 900px) {
 	main {
 		width: 75%;
 		margin-left: 25%;
-	}
-
-	.about-me {
-		width: 90%;
 	}
 
 	.sidebar {
@@ -25,31 +72,13 @@
 		display: none;
 	}
 
-	.project-list > li, h2 {
+	h1 {
+		margin-left: 5%;
+	}
+
+	.project-list > li, h2, .about-me, .contact-div {
 		width: 90%;
 	}
-
-	.tech-logos {
-		width: 60%;	
-	}
-
-/*	img.lemme-know {
-		border: 4px solid #152B42;
-	}
-
-	img.maintain-my-ride {
-		border: 4px solid rgba(28, 29, 33, 0.90);
-	}
-
-	img.hike-my-national-parks {
-		border: 4px solid black;
-	}*/
-
-/*color: #152B42;*/
-/*	.intro {
-	flex-basis: 75%;
-	min-width: 75%;
-}*/
 }
 
 @media screen and (min-width: 975px) {
@@ -62,6 +91,14 @@
 		width: 23%;
 		left: 0;
 	}
+
+	.contact-div > div {
+		width: 50%;
+	}
+
+	.email-form textarea{
+		height: 150%;
+	}
 }
 
 @media screen and (min-width: 1030px) {
@@ -71,8 +108,12 @@
 	}
 
 	.sidebar {
-		width: 20%;
+		width: 22%;
 		left: 0;
+	}
+
+	.tech-logos {
+		width: 40%;
 	}
 }
 
@@ -83,7 +124,9 @@
 	}
 
 	.sidebar {
-		width: 17%;
+		width: 19%;
 		left: 0;
 	}
 }
+
+
